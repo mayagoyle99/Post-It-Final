@@ -1,0 +1,36 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Socket.IO whiteboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+
+    <nav>
+        <div id="sticky">Add sticky</div>
+    </nav>  
+  
+  <div class="main">
+    <canvas class="whiteboard" ></canvas>
+  <div id="sticky-container"></div>
+    
+  </div>
+
+  <div class="colors">
+    <div class="color black"></div>
+    <div class="color red"></div>
+    <div class="color green"></div>
+    <div class="color blue"></div>
+    <div class="color yellow"></div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+
+  <script src="/main.js"></script>
+</body>
+</html>

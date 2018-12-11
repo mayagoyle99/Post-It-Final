@@ -1,0 +1,24 @@
+{
+  "name": "post-it-final",
+  "version": "1.0.0",
+  "description": "Final project repository for my virtual post-it note bulletin board.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayagoyle99/Post-It-Final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayagoyle99/Post-It-Final/issues"
+  },
+  "homepage": "https://github.com/mayagoyle99/Post-It-Final#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.7",
+    "socket.io": "^2.2.0"
+  }
+}

@@ -1,0 +1,23 @@
+.main {
+	display: flex;
+	flex-direction: row;
+}
+#sticky-container {
+	background: url('Untitled-1.png');
+	width: 50%;
+}
+#sticky-container .sticky {
+	background: url('postit.png');
+	width: 225px;
+	height: 225px;
+	display: flex;
+	justify-content: center;
+}
+canvas {
+	width: 50%;
+}
+
+input {
+	align-self: center;
+	height: 20px;
+}
